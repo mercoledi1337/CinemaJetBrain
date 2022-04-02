@@ -145,7 +145,7 @@ public class Cinema {
         int rows = scan.nextInt();
         System.out.print("Enter the number of seats in each row:");
         int seats = scan.nextInt();
-        char[][] room = new char[seats+2][rows+2];
+        char[][] room = new char[rows+2][seats+2];
         room(rows,seats,room);
         for (int i = 0; i < (rows+2)*(seats+2);i++) {
             System.out.println("1. Show the seats");
